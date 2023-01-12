@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
+body {
+    background-image:url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.header{
+    background: #3C3A39;
+    display: flex;
+    
+    left: 0px;
+    right: 0px;
+    top: 44px;
+    bottom: 0px;
+}
+.headline{
+    background: #1C1A19;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 24px;
+    gap: 12px;
+    position: absolute;
+    align-items: center;
+}
+
+.introduction{
+    width: 327px;
+    height: 124px;
+    font-family:'crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    letter-spacing: 0.37px;
+    color: #FF6B00;
+    align-self: center;
+}
+
+.supporting-text{
+    width: 400px;
+    height: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFF5E1;
+}
+
+.description{
+    width: 327px;
+    height: 123px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.social-networks-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.image-size{
+    margin: 0;
+}
+
+
+.name{
+    width: 77px;
+    height: 24px;
+
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 24px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Theme 3 / Neutral 11 */
+
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+   
+}
+
+.menu-cont{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px;
+width: 40px;
+height: 40px;
+right: 24px;
+top: calc(50% - 40px/2);
+
+border-radius: 8px;
+}
+
+.menu{
+left: 16.67%;
+right: 16.67%;
+top: 70.83%;
+bottom: 29.17%;
+
+/* Base / 300 - Tertiary
+
+For small, less significant text and placeholders.
+*/
+border: 2px solid #ACB7C3;
+
+
+}
