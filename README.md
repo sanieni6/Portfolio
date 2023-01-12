@@ -26,7 +26,7 @@
 
 Portfolio is a project where a share all mi experience and my projects as a full stack software developer.
 This is my personal webpage built with all the knowledgement that I learned in the Microverse program.
-The porpuse of this project is to master all of the tools and best practices I learned about in previous Microverse activities. 
+The porpuse of this project is to master all of the tools and best practices I learned in previous Microverse activities. 
 
 ## 🛠 Built With <a name="built-with"></a>
 + Git
@@ -90,4 +90,6 @@ I would like to thank Microverse and my coding partners for inspiring me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+## 📋License <a name="license"></a>
+This project is [MIT](LICENSE.md) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
