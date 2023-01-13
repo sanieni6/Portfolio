@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
 
 html {
   box-sizing: border-box;
@@ -111,4 +111,217 @@ body {
   display: flex;
   margin-left: 24px;
   color: #fff;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  height: 3411px;
+  left: 0px;
+  padding: 120px 0px;
+  top: 682px;
+}
+
+.topics {
+  top: 945px;
+  width: 375px;
+  height: 3028px;
+  
+}
+
+.card-works {
+  position: relative;
+  display: grid;
+  grid-template-columns: 85%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  row-gap: 24px;
+  height: 3028px;
+  width: 375px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 386px;
+  width: 327px;
+  background-image: url(images/second-place.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.title-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+width: 327px;
+height: 107px;
+}
+
+.title-works {
+  font-family: "crete Round", sans-serif;
+  width: 327px;
+  height: 83px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  margin: 0;
+  ;
+  
+}
+
+.solidhr {
+  width: 327px;
+  height: 0px;
+  border: 1px solid #212121;
+  padding: 0;
+  margin: 0;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 327px;
+  height: 307px;
+}
+
+.multi-post {
+  font-family: "crete Round", sans-serif;
+  width: 327px;
+  height: 36px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  margin: 0;
+}
+
+.description2 {
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  width: 327px;
+  height: 147px;
+  margin: 0;
+}
+
+.tech {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 297px;
+  height: 40px;
+}
+
+.design {
+  box-sizing: border-box;
+  border: 1px solid #8993A4;
+  height: 40px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 12px;
+}
+
+.portrait {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  width: 327px;
+  height: 248px;
+  left: calc(50% - 327px/2);
+  bottom: 62px;
+  padding-top: 76px;
+}
+
+.profesional-art {
+  width: 295px;
+  height: 81px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin: 0;
+  margin-left: 16px;
+}
+
+.Card-description {
+  width: 295px;
+  height: 87px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0;
+  margin-left: 16px;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 236px;
+  height: 40px;
+  margin-left: 16px;
+}
+
+.tags-li {
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.see-project {
+  width: 327px;
+  height: 48px;
+  left: 0px;
+  top: 338px;
+  background-color: #ff6b00;
+  border: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 14px;
+}
+
+.about-me-section{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
 }
