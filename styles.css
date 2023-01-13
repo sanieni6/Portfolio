@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap");
 
+html {
+  box-sizing: border-box;
+  height: max-content;
+}
+
 body {
   margin: 0;
-  padding: 0;
 }
 
 .header {
@@ -10,11 +14,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
+  width: 375px;
+  margin: 0;
 }
 
 .navigator {
   display: flex;
-  margin-right: 32px;
+  margin-right: 24px;
   height: 24px;
   width: 24px;
   align-self: center;
@@ -22,15 +28,19 @@ body {
 
 .headline {
   background: url("images/Illustration\ \(1\).png");
-  background-position: 35vh 35vw;
+  background-position: 35vh 48vw;
   background-repeat: no-repeat;
   background-size: 48%;
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 24px;
-  gap: 24px;
+  gap: 12px;
+  width: 375px;
+  height: 634px;
+  left: 0;
+  top: 44px;
+  border-radius: 0;
 }
 
 .introduction {
@@ -43,18 +53,22 @@ body {
   letter-spacing: 0.37px;
   color: #ff6b00;
   margin: 0;
+  padding: 120px 24px 6px;
 }
 
 .supporting-text {
-  width: 400px;
+  width: 327px;
   height: 27px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 32px;
+  display: flex;
+  align-items: center;
   color: #fff5e1;
   margin: 0;
+  padding: 6px 24px;
 }
 
 .description {
@@ -66,6 +80,7 @@ body {
   line-height: 24px;
   color: #fff;
   margin: 0;
+  padding: 6px 24px;
 }
 
 .social-networks-buttons {
@@ -73,10 +88,10 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 px;
   align-self: flex-start;
   gap: 12px;
   margin: 0;
+  padding: 6px 135px 120px 24px;
 }
 
 .image-size {
