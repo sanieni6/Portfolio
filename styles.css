@@ -348,12 +348,12 @@ body {
   display: flex;
   flex-direction: column;
   width: 375px;
-  height: 1650px;
+  height: 1675px;
 }
 
 .about-me {
   background: url("images/animation-bottom.png");
-  background-position: 40vh 48vw;
+  background-position: 28vh 98vw;
   background-repeat: no-repeat;
   background-size: 48%;
   display: flex;
@@ -362,7 +362,8 @@ body {
   gap: 24px;
   width: 375px;
   height: 563px;
-  margin-bottom: 89px;
+  padding-bottom: 207px;
+  /* margin-bottom: 89px; */
 }
 
 .about-title {
@@ -405,6 +406,22 @@ body {
   background: #ff6b00;
   color: #fff;
   margin-left: 24px;
+}
+
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+button:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
 }
 
 .holder-image {
