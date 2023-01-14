@@ -353,7 +353,7 @@ body {
 
 .about-me {
   background: url("images/animation-bottom.png");
-  background-position: 28vh 98vw;
+  background-position: 31vh 98vw;
   background-repeat: no-repeat;
   background-size: 48%;
   display: flex;
@@ -363,7 +363,6 @@ body {
   width: 375px;
   height: 563px;
   padding-bottom: 207px;
-  /* margin-bottom: 89px; */
 }
 
 .about-title {
@@ -480,7 +479,8 @@ button:disabled {
   align-items: center;
   width: 329px;
   height: 1241.46px;
-  margin-left: calc(50% - 329px / 2);
+  padding-left: 0;
+  margin: 0 23px;
   gap: 24px;
 }
 
