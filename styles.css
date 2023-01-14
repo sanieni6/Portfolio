@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap");
+
+@font-face {
+  font-family: inaimathi;
+  src:
+    url("webfontkit-inaimathi/inaimathi-webfont.woff") format("woff"),
+    url("webfontkit-inaimathi/inaimathi-webfont.woff2") format("woff2");
+}
 
 html {
   box-sizing: border-box;
@@ -118,28 +125,20 @@ body {
   flex-direction: column;
   align-items: center;
   width: 375px;
-  height: 3411px;
-  left: 0px;
-  padding: 120px 0px;
+  height: 3455px;
+  left: 0;
   top: 682px;
-}
-
-.topics {
-  top: 945px;
-  width: 375px;
-  height: 3028px;
-  
 }
 
 .card-works {
   position: relative;
   display: grid;
-  grid-template-columns: 85%;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 87%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   justify-content: center;
   row-gap: 24px;
-  height: 3028px;
-  width: 375px;
+  height: 2436px;
+  width: 100%;
 }
 
 .card {
@@ -148,20 +147,21 @@ body {
   align-items: flex-start;
   height: 386px;
   width: 327px;
-  background-image: url(images/second-place.png);
+  background-image: url("images/second-place.png");
   background-repeat: no-repeat;
   background-size: auto;
 }
 
-.title-content{
+.title-content {
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
-
-width: 327px;
-height: 107px;
+  width: 327px;
+  height: 107px;
+  margin-bottom: 80px;
 }
 
 .title-works {
@@ -174,16 +174,24 @@ height: 107px;
   line-height: 52px;
   color: #1c1a19;
   margin: 0;
-  ;
-  
 }
 
 .solidhr {
   width: 327px;
-  height: 0px;
+  height: 0;
   border: 1px solid #212121;
   padding: 0;
   margin: 0;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 375px;
+  height: 568px;
+  margin-bottom: 24px;
 }
 
 .card2 {
@@ -194,6 +202,20 @@ height: 107px;
   gap: 12px;
   width: 327px;
   height: 307px;
+}
+
+.open-project {
+  width: 124px;
+  height: 48px;
+  border: 0;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: #ff6b00;
 }
 
 .multi-post {
@@ -209,7 +231,7 @@ height: 107px;
 }
 
 .description2 {
-  font-family: "inter", sans-serif;
+  font-family: inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -225,17 +247,18 @@ height: 107px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 297px;
   height: 40px;
+  margin: 0;
 }
 
 .design {
   box-sizing: border-box;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   height: 40px;
-  font-family: 'Inter',sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -258,7 +281,7 @@ height: 107px;
 .profesional-art {
   width: 295px;
   height: 81px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -268,10 +291,10 @@ height: 107px;
   margin-left: 16px;
 }
 
-.Card-description {
+.card-description {
   width: 295px;
   height: 87px;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -286,7 +309,7 @@ height: 107px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 236px;
   height: 40px;
@@ -294,9 +317,9 @@ height: 107px;
 }
 
 .tags-li {
-  background: rgba(255, 255, 255, 0.24);
+  background: #ffffff3d;
   padding: 10px 12px;
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -307,11 +330,11 @@ height: 107px;
 .see-project {
   width: 327px;
   height: 48px;
-  left: 0px;
+  left: 0;
   top: 338px;
   background-color: #ff6b00;
   border: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -320,8 +343,137 @@ height: 107px;
   margin-top: 14px;
 }
 
-.about-me-section{
-  position: absolute;
+.about-me-section {
+  background-color: #1c1a19;
   display: flex;
   flex-direction: column;
+  width: 375px;
+  height: 1650px;
+}
+
+.about-me {
+  background: url("images/animation-bottom.png");
+  background-position: 40vh 48vw;
+  background-repeat: no-repeat;
+  background-size: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 375px;
+  height: 563px;
+  margin-bottom: 89px;
+}
+
+.about-title {
+  padding: 120px 24px 0;
+  width: 327px;
+  height: 79px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin: 0;
+}
+
+.description-about {
+  width: 327px;
+  height: 148px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin: 0;
+  padding: 0 24px;
+}
+
+.resume-button {
+  border: 0;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #ff6b00;
+  color: #fff;
+  margin-left: 24px;
+}
+
+.holder-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 12px;
+  height: 41.46px;
+}
+
+.format {
+  height: 24px;
+  font-family: inaimathi, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.about-languages {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  gap: 8px;
+  text-align: center;
+  margin: 0;
+}
+
+.des-text {
+  height: 24px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  color: #fff;
+  padding: 12px 0;
+}
+
+.solidhr1 {
+  width: 327px;
+  border: 1px solid #fff;
+  margin: 0;
+  margin-left: 24px;
+  margin-bottom: 128px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 329px;
+  height: 1241.46px;
+  margin-left: calc(50% - 329px/2);
+  gap: 24px;
+}
+
+.about-me-sectiones {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 225.46px;
+  height: 281.46px;
 }
