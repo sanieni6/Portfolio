@@ -587,3 +587,38 @@ button:disabled {
   flex-direction: column;
   align-items: center;
 }
+
+.social-media-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 375px;
+  height: 72px;
+  gap: 13px;
+}
+
+.solidhr3 {
+  width: 375px;
+  height: 1px;
+  border: 0;
+  background: #dfe1e6;
+  margin: 0;
+}
+
+.solidhr4 {
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px/2 - 0.5px);
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.padd {
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
