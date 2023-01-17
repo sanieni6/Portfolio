@@ -395,7 +395,7 @@ body {
 .resume-button {
   border: 0;
   gap: 10px;
-  width: 161px;
+  width: auto;
   height: 48px;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -405,6 +405,7 @@ body {
   background: #ff6b00;
   color: #fff;
   margin-left: 24px;
+  padding: 12px;
 }
 
 button:hover {
@@ -493,4 +494,132 @@ button:disabled {
   gap: 24px;
   width: 225.46px;
   height: 281.46px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 58px;
+  width: 375px;
+  height: 844px;
+  margin: 0;
+}
+
+.primary-text {
+  padding-top: 120px;
+  width: 327px;
+  height: 216px;
+  padding-left: 24px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin: 0;
+}
+
+.element-form {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin-left: 24px;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+}
+
+.solidhr2 {
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 327px;
+  margin: 0;
+  border: 0;
+  background: #dbd8d7;
+}
+
+.items-form {
+  width: 327px;
+  height: auto;
+}
+
+.color-form {
+  background: #fbf8f7;
+}
+
+.name-input {
+  width: 295px;
+  height: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  size: 15px;
+  line-height: 24px;
+  color: #979493;
+  border: none;
+  margin-bottom: 14px;
+}
+
+.msg-input {
+  width: 303px;
+  height: 90px;
+  background: #fbf8f7;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  border: 0;
+  margin: 12px;
+}
+
+.center1 {
+  margin: 0;
+}
+
+.put-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 375px;
+  height: 72px;
+  gap: 13px;
+}
+
+.solidhr3 {
+  width: 375px;
+  height: 1px;
+  border: 0;
+  background: #dfe1e6;
+  margin: 0;
+}
+
+.solidhr4 {
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.padd {
+  margin: 0;
+  padding: 0;
+  align-self: center;
 }
