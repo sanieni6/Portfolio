@@ -395,7 +395,7 @@ body {
 .resume-button {
   border: 0;
   gap: 10px;
-  width: 161px;
+  width: auto;
   height: 48px;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -405,6 +405,7 @@ body {
   background: #ff6b00;
   color: #fff;
   margin-left: 24px;
+  padding: 12px;
 }
 
 button:hover {
@@ -509,7 +510,7 @@ button:disabled {
 .primary-text {
   width: 327px;
   height: 216px;
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -517,7 +518,6 @@ button:disabled {
   text-align: center;
   color: #172b4d;
   margin: 0%;
-
 }
 
 .element-form {
@@ -534,14 +534,12 @@ button:disabled {
 
 .solidhr2 {
   height: 1px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 327px;
   margin: 0;
-
-  /* Theme 3 / Neutral 8 */
-
+  border: 0;
   background: #dbd8d7;
 }
 
@@ -550,10 +548,14 @@ button:disabled {
   height: auto;
 }
 
+.color-form {
+  background: #fbf8f7;
+}
+
 .name-input {
   width: 295px;
   height: 18px;
-  font-family: 'inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   size: 15px;
   line-height: 24px;
@@ -563,13 +565,25 @@ button:disabled {
 }
 
 .msg-input {
-  width: 327px;
-  height: 114px;
+  width: 303px;
+  height: 90px;
   background: #fbf8f7;
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #3c3a39;
+  border: 0;
+  margin: 12px;
+}
+
+.center1 {
+  margin: 0;
+}
+
+.put-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
