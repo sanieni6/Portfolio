@@ -500,16 +500,17 @@ button:disabled {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 24px;
   gap: 58px;
-  width: 327px;
-  height: 604px;
+  width: 375px;
+  height: 844px;
   margin: 0;
 }
 
 .primary-text {
+  padding-top: 120px;
   width: 327px;
   height: 216px;
+  padding-left: 24px;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -517,7 +518,7 @@ button:disabled {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-  margin: 0%;
+  margin: 0;
 }
 
 .element-form {
@@ -526,7 +527,7 @@ button:disabled {
   flex-direction: column;
   align-items: center;
   padding: 0;
-  margin: 0;
+  margin-left: 24px;
   gap: 24px;
   width: 327px;
   height: 330px;
