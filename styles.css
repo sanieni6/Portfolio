@@ -838,7 +838,7 @@ button:disabled {
   }
 
   .custom-card-shadow {
-    background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url("images/placeholder1.png");
+    background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url("images/Img Placeholder.png");
     background-repeat: no-repeat;
     background-size: auto;
     position: relative;
@@ -857,13 +857,168 @@ button:disabled {
   .profesional-art{
     width: 337px;
     height: auto;
-    text-indent: -9999px;
-    
   }
 
-  .custom-text::after {
-    content: "Data Dashboard Healthcare";
-    text-indent: 0;
+  .card-description {
+    width: 337px;
+    height: 72px;
   }
+
+  .tags {
+    margin: 0 0 0 16px;
+
+  }
+
+  .about-me-section {
+    background: url("images/Frame-footer-desktop.png");
+    background-position: 100vh 0vw;
+    background-repeat: no-repeat;
+    background-size: 48%;
+    background-color: #262626;
+    width: 1440px;
+    height: 1195px;
+  }
+
+  .about-me {
+    width: 566px;
+    height: 582px;
+    padding-bottom: 0;
+    margin-left: 142px;
+    margin-bottom: 9px;
+  }
+
+  .about-title {
+    padding: 0;
+    width: 566px;
+    height: 78px;
+    line-height: 82px;
+    color: #f55800;
+    margin-top: 130px;
+  }
+
+  .description-about {
+    width: 566px;
+    height: 148px;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .resume-button {
+    margin-left: 0;
+  }
+
+  .solidhr1 {
+    width: 1156px;
+    margin-left: 142px;
+    margin-bottom: 0;
+  }
+
+  .skills {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 1157.46px;
+    height: 596px;
+    margin: 0;
+    margin-left: 141px;
+    gap: 151px;
+  }
+  
+  .about-me-sectiones {
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 289.46px;
+    height: 281.46px;
+    margin-top: 130px;
+  }
+
+  .about-languages {
+    align-items: flex-start;
+    padding: 0 12px;
+    gap: 8px;
+    width: 186px;
+    height: 216px;
+  }
+
+  .form {
+    flex-direction: row;
+    gap: 24px;
+    width: 1163px;
+    height: 590px;
+    margin-left: 135px;
+    align-items: flex-start;
+  }
+  
+  .primary-text {
+    margin-top: 130px;
+    width: 455px;
+    height: 256px;
+    padding: 0;
+    font-size: 40px;
+    line-height: 52px;
+    color: #262626;
+    text-align: left;
+  }
+  
+  .element-form {
+    align-items: flex-start;
+    padding: 0;
+    margin: 130px 0 0;
+    gap: 24px;
+    width: 684px;
+    height: 330px;
+  }
+  
+  .solidhr2 {
+    width: 684px;
+  }
+  
+  .items-form {
+    width: 684px;
+    height: auto;
+  }
+  
+  .color-form {
+    background: #fbf8f7;
+    width: auto;
+    height: auto;
+  }
+  
+  .name-input {
+    width: 652px;
+    margin-bottom: 14px;
+  }
+  
+  .msg-input {
+    width: 672px;
+    height: 102px;
+    margin: 6px;
+  }
+  
+  .center1 {
+    margin: 0;
+  }
+  
+  .put-center {
+    align-items: flex-start;
+  }
+  
+  .social-media-bottom {
+    width: 1440px;
+    height: 72px;
+    gap: 15px;
+  }
+  
+  .solidhr3 {
+    width: 1440px;
+  }
+
+  .padd {
+    flex-direction: row;
+    align-self: center;
+  }
+  
 
 }
