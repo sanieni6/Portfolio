@@ -162,6 +162,12 @@ body {
   background-image: url("images/second-place.png");
   background-repeat: no-repeat;
   background-size: 87.2vw auto;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
 }
 
 .title-content {
@@ -994,12 +1000,16 @@ button:disabled {
   .name-input {
     width: 47.5vw;
     margin-bottom: 14px;
+    transition: all;
+    transition-duration: 1s;
   }
 
   .msg-input {
     width: 47.5vw;
     height: 102px;
     margin: 6px;
+    transition: all;
+    transition-duration: 1s;
   }
 
   .center1 {
@@ -1067,6 +1077,8 @@ button:disabled {
     text-align: center;
     display: flex;
     align-self: center;
+	transition-property: all;
+    transition-duration: 1s;
   }
 
   .navigator {
@@ -1097,5 +1109,16 @@ button:disabled {
 
   .nocont1 {
     display: flex;
+  }
+  .name-input:hover {
+    transform: translate(10px);
+  }
+
+  .msg-input:hover {
+    transform: translate(10px);
+  }
+
+  .links-nav:hover {
+    transform: translateY(-10px);
   }
 }
