@@ -1086,7 +1086,7 @@ button:disabled {
     text-align: center;
     display: flex;
     align-self: center;
-	  transition-property: all;
+    transition-property: all;
     transition-duration: 1s;
   }
 
@@ -1119,6 +1119,7 @@ button:disabled {
   .nocont1 {
     display: flex;
   }
+
   .name-input:hover {
     transform: translate(10px);
   }
