@@ -12,9 +12,22 @@
 </head>
 <body>
   <header class="header">
-    <a href="index.html"><p class="name">Luis Sanchez</p></a>
+    <a href="index.html"><p class="name refname">Luis Sanchez</p></a>
+    
     <nav class="navigator">
-      <img src="images/menu.png" alt="menu button">
+      <ul class="content-nav">
+        <li class="frame-nav">
+          <a href="#works" class="frame-nav"><p class="links-nav">Portfolio</p></a>
+        </li>
+        <li class="frame-nav">
+          <a href="#about-me" class="frame-nav"><p class="links-nav">About</p></a>
+        </li>
+        <li class="frame-nav">
+          <a href="#contact" class="frame-nav"><p class="links-nav">contact</p></a>
+        </li>
+      </ul>
+      <img src="images/letter.png" alt="menu button" class="change-image1">
+      <img src="images/menu.png" alt="menu button" class="change-image">
 
     </nav>
   
@@ -48,7 +61,7 @@
 
   </section>
   
-  <section class="works">
+  <section class="works" id="works">
     <div class="title-content">
       <h2 class="title-works">My Recents works</h2>
       <hr class="solidhr">
@@ -145,7 +158,7 @@
     </section>
 
   </section>
-  <section class="about-me-section">
+  <section class="about-me-section" id="about-me">
     <div class="about-me">
       <h3 class="about-title">About me</h3>
       <p class="description-about">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -188,7 +201,7 @@
       </li>
     </ul>
   </section>
-  <section class="form">
+  <section class="form" id="contact">
     <p class="primary-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
     <form action="https://formspree.io/f/mwkjplad" method="post">
       <ul class="element-form">
