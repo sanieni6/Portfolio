@@ -65,8 +65,6 @@ body {
 }
 
 .introduction {
-  /* width: 327px;
-  height: 124px; */
   font-family: "crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -78,8 +76,6 @@ body {
 }
 
 .supporting-text {
-  /* width: 327px;
-  height: 27px; */
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -92,8 +88,6 @@ body {
 }
 
 .description {
-  /* width: 327px;
-  height: 123px; */
   font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -309,6 +303,14 @@ body {
   margin: 0;
 }
 
+.alter-text1 .alter-text2 .alter-text3 {
+  display: none;
+}
+
+.nocont1 {
+  display: none;
+}
+
 .card-description {
   width: 100%;
   font-family: Inter, sans-serif;
@@ -447,7 +449,7 @@ button:disabled {
 
 .format {
   height: 24px;
-  font-family: inaimathi, sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -504,7 +506,7 @@ button:disabled {
   padding: 0;
   gap: 24px;
   width: 225.46px;
-  height: 281.46px;
+  height: max-content;
 }
 
 .form {
@@ -952,12 +954,15 @@ button:disabled {
   }
 
   .primary-text {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
     margin-top: 15.27vw;
     width: 31.59vw;
     height: max-content;
     padding: 0;
-    font-size: 2.77vw;
-    line-height: 3.61vw;
     color: #262626;
     text-align: left;
   }
@@ -1080,5 +1085,17 @@ button:disabled {
     display: block;
     height: 24px;
     width: 24px;
+  }
+
+  .nocont {
+    display: none;
+  }
+
+  .alter-text1 .alter-text2 .alter-text3 {
+    display: flex;
+  }
+
+  .nocont1 {
+    display: flex;
   }
 }
