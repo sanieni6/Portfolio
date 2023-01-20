@@ -1036,7 +1036,7 @@ button:disabled {
   }
 
   .refname {
-    width: 8.05vw;
+    width: max-content;
     min-width: 115px;
     height: max-content;
     display: flex;
@@ -1044,6 +1044,15 @@ button:disabled {
     align-items: center;
     margin-top: 26px;
     margin-left: 9.86vw;
+    transition: text;
+    transition-duration: 2s;
+    text-decoration: none;
+  }
+
+  .refname:hover {
+    font-size: 22px;
+    line-height: 23px;
+    color: #000;
   }
 
   .content-nav {
@@ -1077,7 +1086,7 @@ button:disabled {
     text-align: center;
     display: flex;
     align-self: center;
-	transition-property: all;
+	  transition-property: all;
     transition-duration: 1s;
   }
 
