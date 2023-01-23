@@ -11,6 +11,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -33,6 +34,15 @@ The porpuse of this project is to master all of the tools and best practices I l
 + HTML
 + CSS
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [[Github-pages]](https://sanieni6.github.io/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -46,6 +56,10 @@ Clone this repository to your computer
 
 ### Usage
 To run the project, execute the "index.html" file in your browser
+
+### Deployment
+
+Just open it in your browser.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
