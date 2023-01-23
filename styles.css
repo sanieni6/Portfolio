@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  width: 100vw;
+  width: 100%;
   margin: 0;
 }
 
@@ -38,8 +38,8 @@ body {
 }
 
 .new-querie {
-  width: 100vw;
-  height: 95vh;
+  width: 100%;
+  height: max-content;
   margin: 0;
   background: url("images/Illustration\ \(1\).png");
   background-position: right bottom;
@@ -58,10 +58,11 @@ body {
   width: 85%;
   align-items: flex-start;
   gap: 12px;
-  height: 100vh;
+  height: max-content;
   left: 0;
   top: 44px;
   border-radius: 0;
+  margin-bottom: 120px;
 }
 
 .introduction {
@@ -135,7 +136,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: max-content;
   left: 0;
   top: 682px;
@@ -207,7 +208,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  width: 100vw;
+  width: 100%;
   height: max-content;
   margin-bottom: 24px;
 }
@@ -374,7 +375,7 @@ body {
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   height: max-content;
   align-items: center;
 }
@@ -520,7 +521,7 @@ button:disabled {
   flex-direction: column;
   align-items: center;
   gap: 58px;
-  width: 100vw;
+  width: 100%;
   height: max-content;
   margin: 0;
   padding: 120px 0;
@@ -612,13 +613,13 @@ button:disabled {
   align-items: center;
   padding: 0;
   margin: 0;
-  width: 100vw;
+  width: 100%;
   height: max-content;
   gap: 13px;
 }
 
 .solidhr3 {
-  width: 100vw;
+  width: 100%;
   height: 1px;
   border: 0;
   background: #dfe1e6;
@@ -643,7 +644,7 @@ button:disabled {
 
 @media screen and (min-width: 768px) {
   .header {
-    width: 100vw;
+    width: 100%;
     height: 72px;
   }
 
@@ -660,7 +661,7 @@ button:disabled {
     background-position: right;
     background-repeat: no-repeat;
     background-size: 48%;
-    width: 100vw;
+    width: 100%;
     height: max-content;
     background-color: #1c1a19;
     align-items: flex-start;
@@ -678,6 +679,7 @@ button:disabled {
     margin-left: 143px;
     border-radius: 0;
     padding: 192px 0;
+    margin-bottom: 0;
   }
 
   .introduction {
@@ -737,7 +739,7 @@ button:disabled {
   }
 
   .works {
-    width: 100vw;
+    width: 100%;
     height: max-content;
   }
 
@@ -882,7 +884,7 @@ button:disabled {
     background-repeat: no-repeat;
     background-size: 48%;
     background-color: #262626;
-    width: 100vw;
+    width: 100%;
     height: max-content;
     align-items: flex-start;
   }
@@ -916,9 +918,12 @@ button:disabled {
   }
 
   .solidhr1 {
-    width: 100vw;
+    width: 100%;
     margin-left: 0;
     margin-bottom: 0;
+    border: 0;
+    background: #fff;
+    height: 2px;
   }
 
   .skills {
@@ -1021,13 +1026,13 @@ button:disabled {
   }
 
   .social-media-bottom {
-    width: 100vw;
+    width: 100%;
     height: max-content;
     gap: 15px;
   }
 
   .solidhr3 {
-    width: 100vw;
+    width: 100%;
   }
 
   .padd {
