@@ -597,6 +597,10 @@ button:disabled {
   margin: 12px;
 }
 
+.nolabel {
+  display: none;
+}
+
 .center1 {
   margin: 0;
 }
@@ -1015,6 +1019,10 @@ button:disabled {
     margin: 6px;
     transition: all;
     transition-duration: 1s;
+  }
+
+  .nolabel {
+    display: none;
   }
 
   .center1 {
