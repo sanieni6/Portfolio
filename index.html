@@ -12,21 +12,21 @@
 </head>
 <body>
   <header class="header">
-    <a href="index.html"><p class="name refname">Luis Sanchez</p></a>
+    <a href="index.html"><h1 class="name refname">Luis Sanchez</h1></a>
     
     <nav class="navigator">
       <ul class="content-nav">
         <li class="frame-nav">
-          <a href="#works" class="frame-nav"><p class="links-nav">Portfolio</p></a>
+          <a href="#works" class="frame-nav"><h2 class="links-nav">Portfolio</h2></a>
         </li>
         <li class="frame-nav">
-          <a href="#about-me" class="frame-nav"><p class="links-nav">About</p></a>
+          <a href="#about-me" class="frame-nav"><h2 class="links-nav">About</h2></a>
         </li>
         <li class="frame-nav">
-          <a href="#contact" class="frame-nav"><p class="links-nav">contact</p></a>
+          <a href="#contact" class="frame-nav"><h2 class="links-nav">contact</h2></a>
         </li>
       </ul>
-      <img src="images/letter.png" alt="menu button" class="change-image1">
+      <img src="images/letter.png" alt="contact button" class="change-image1">
       <img src="images/menu.png" alt="menu button" class="change-image">
 
     </nav>
@@ -34,24 +34,24 @@
   </header>
   <section class="new-querie">
     <section class="headline">
-      <h1 class="introduction">Hey There.
+      <h2 class="introduction">Hey There.
         I'm Luis
-      </h1>
-      <h2 class="supporting-text">I'm a software developer</h2>
+      </h2>
+      <h3 class="supporting-text">I'm a software developer</h3>
       <p class="description">I can help you build your project , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
         don’t hestiate to contact me.</p>
       <ul  class="social-networks-buttons positionin">
         <li>
-          <a rel="noopener" target="_blank" href="https://github.com/sanieni6"><img class="image-size" src="images/github.png" alt="github" /></a>
+          <a rel="noopener" target="_blank" href="https://github.com/sanieni6"><img class="image-size" src="images/github.png" alt="github" ></a>
         </li>
-        <li><a rel="noopener" target="_blank" href="https://www.linkedin.com/in/luissanchezz3/"><img class="image-size" src="images/linkedin.png" alt="linkedin" /></a></li>
-        <li><a rel="noopener" target="_blank"  href="https://angel.co/u/luis-sanchez-zamora"  ><img class="image-size" src="images/angelist.png" alt="angellist" /></a></li>
+        <li><a rel="noopener" target="_blank" href="https://www.linkedin.com/in/luissanchezz3/"><img class="image-size" src="images/linkedin.png" alt="linkedin" ></a></li>
+        <li><a rel="noopener" target="_blank"  href="https://angel.co/u/luis-sanchez-zamora"  ><img class="image-size" src="images/angelist.png" alt="angellist" ></a></li>
         <li>
-         <a < rel="noopener" target="_blank" href="https://twitter.com/its_luis_sz23"><img src="images/twitter.png" alt="twitter" /></a>
+         <a rel="noopener" target="_blank" href="https://twitter.com/its_luis_sz23"><img src="images/twitter.png" alt="twitter" ></a>
         </li>
         
         
-        <li><a rel="noopener" target="_blank" href="https://medium.com/@luissanchezzamora23"><img class="image-size" src="images/medium.png" alt="medium" /></a></li>
+        <li><a rel="noopener" target="_blank" href="https://medium.com/@luissanchezzamora23"><img class="image-size" src="images/medium.png" alt="medium" ></a></li>
         
         
       </ul>
@@ -67,7 +67,7 @@
       <hr class="solidhr">
     </div>
     <div class="feature-card">
-      <img class="image-feature" src="images/first-place.png" alt="main placeholder">
+      <img class="image-feature" src="images/first-place.png" alt="main card">
       <div class="card2">
         <h3 class="multi-post">Multi-Post Stories</h3>
         <p class="description2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
@@ -159,7 +159,7 @@
   </section>
   <section class="about-me-section" id="about-me">
     <div class="about-me">
-      <h3 class="about-title">About me</h3>
+      <h2 class="about-title">About me</h2>
       <p class="description-about">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
       <button class="resume-button">Get My Resume</button>
     </div>
@@ -167,7 +167,7 @@
     <ul class="skills">
       <li class="about-me-sectiones">
         <div class="holder-image">
-          <img src="images/triangle.png" alt="">
+          <img src="images/triangle.png" alt="Lenguages list" >
           <h3 class="format">Language</h3>
         </div>
         <ul class="about-languages">
@@ -179,7 +179,7 @@
       </li>
       <li class="about-me-sectiones">
         <div class="holder-image">
-          <img src="images/rectangle.png" alt="">
+          <img src="images/rectangle.png" alt="Frameworks list">
           <h3 class="format">Frameworks</h3>
         </div>
         <ul class="about-languages">
@@ -192,7 +192,7 @@
       </li>
       <li class="about-me-sectiones">
         <div class="holder-image">
-          <img src="images/circle.png" alt="">
+          <img src="images/circle.png" alt="Skills list">
           <h3 class="format">Skills</h3>
         </div>
         <ul class="about-languages">
@@ -210,15 +210,18 @@
     <form action="https://formspree.io/f/mwkjplad" method="post">
       <ul class="element-form">
         <li class="items-form">
-          <input type="text" class="name-input" name="user_name" maxlength="30"  placeholder="Full name" required/>
+          <label for="username" class="nolabel">Name</label>
+          <input type="text" id="username" class="name-input" name="user_name" maxlength="30"  placeholder="Full name" required>
           <hr class="solidhr2">
         </li>
         <li class="items-form">
-          <input type="email" class="name-input" name="user_email" placeholder="Email address" required>
+          <label for="user-email" class="nolabel">Email address</label>
+          <input type="email" class="name-input" id="user-email" name="user_email" placeholder="Email address" required>
           <hr class="solidhr2">
         </li>
         <li class="items-form color-form">
-          <textarea name="message" class="msg-input" id="msg" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
+          <label for="msg-input" class="nolabel">Enter text here</label>
+          <textarea name="message" class="msg-input" id="msg-input" id="msg" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
         </li>
         <li class="items-form put-center">
           <button type="submit" class="resume-button center1">Get in touch</button>
@@ -230,14 +233,14 @@
     <hr class="solidhr3">
     <ul  class="social-networks-buttons padd">
       <li>
-        <a rel="noopener" target="_blank" href="https://github.com/sanieni6"><img class="image-size" src="images/github-dark.png" alt="github" /></a>
+        <a rel="noopener" target="_blank" href="https://github.com/sanieni6"><img class="image-size" src="images/github-dark.png" alt="github"></a>
       </li>
-      <li><a rel="noopener" target="_blank" href="https://www.linkedin.com/in/luissanchezz3/"><img class="image-size" src="images/linkedin-dark.png" alt="linkedin" /></a></li>
-      <li><a rel="noopener" target="_blank"  href="https://angel.co/u/luis-sanchez-zamora"  ><img class="image-size" src="images/angelist-dark.png" alt="angellist" /></a></li>
+      <li><a rel="noopener" target="_blank" href="https://www.linkedin.com/in/luissanchezz3/"><img class="image-size" src="images/linkedin-dark.png" alt="linkedin"></a></li>
+      <li><a rel="noopener" target="_blank"  href="https://angel.co/u/luis-sanchez-zamora"  ><img class="image-size" src="images/angelist-dark.png" alt="angellist"></a></li>
       <li>
-       <a < rel="noopener" target="_blank" href="https://twitter.com/its_luis_sz23"><img src="images/twitter-dark.png" alt="twitter" /></a>
+       <a rel="noopener" target="_blank" href="https://twitter.com/its_luis_sz23"><img src="images/twitter-dark.png" alt="twitter"></a>
       </li>
-      <li><a rel="noopener" target="_blank" href="https://medium.com/@luissanchezzamora23"><img class="image-size" src="images/medium-dark.png" alt="medium" /></a></li>
+      <li><a rel="noopener" target="_blank" href="https://medium.com/@luissanchezzamora23"><img class="image-size" src="images/medium-dark.png" alt="medium"></a></li>
     </ul>
     <hr class="solidhr4 non-content">
   </section>
