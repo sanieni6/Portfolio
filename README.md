@@ -40,6 +40,7 @@ The porpuse of this project is to master all of the tools and best practices I l
 
 
 - [[Github-pages]](https://sanieni6.github.io/)
+- [[Loom-video]](https://www.loom.com/share/dde2e85dcab94155b785b64918f5e8d6)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
