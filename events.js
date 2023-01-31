@@ -16,11 +16,11 @@ function displayMenu() {
   nav.style.flexDirection = 'column';
   nav.style.position = 'absolute';
   nav.style.top = '48px';
-  nav.style.width = '100vw';
+  nav.style.width = '87.3vw';
   nav.style.height = '100%';
   nav.style.left = '0px';
   nav.style.margin = '0';
-  nav.style.padding = '0';
+  nav.style.padding = '0 24px';
   nav.style.background = '#3c3a39';
 }
 
