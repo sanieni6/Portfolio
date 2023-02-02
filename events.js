@@ -12,4 +12,6 @@ let main_nav = document.querySelector('.navigator');function close() {
     name.style.display = 'block';
     change_image.src = 'images/menu.png';
 }
-
+li_items.forEach((element) => element.addEventListener('click', close));
+btn.addEventListener('click',display_menu);
+window.addEventListener('resize',recall);
