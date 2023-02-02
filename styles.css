@@ -35,6 +35,12 @@ body {
 
 .content-nav {
   display: none;
+  gap: 8px;
+}
+
+.ham-btn {
+  background: #3c3a39;
+  border: 0;
 }
 
 .new-querie {
@@ -109,6 +115,19 @@ body {
   padding: 0;
 }
 
+.frame-nav {
+  width: 100%;
+  height: 56px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  align-self: flex-start;
+  border-bottom-style: solid;
+  border-bottom-color: #6f6c6b;
+  border-width: 1px;
+}
+
 .change-image1 {
   display: none;
 }
@@ -130,6 +149,14 @@ body {
   display: flex;
   margin-left: 24px;
   color: #fff;
+}
+
+.main-name {
+  height: 48px;
+}
+
+.desapear {
+  display: none;
 }
 
 .works {
@@ -428,18 +455,18 @@ body {
   padding: 12px;
 }
 
-button:hover {
+.button-animations:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
 }
 
-button:active {
+.button-animations:active {
   background: #e05304;
   color: #f4f1f0;
 }
 
-button:disabled {
+.button-animations:disabled {
   background: #f4f1f0;
   color: #5b5957;
 }
@@ -631,7 +658,7 @@ button:disabled {
 }
 
 .solidhr4 {
-  width: 35.7vw;
+  width: 134px;
   height: 5px;
   left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
@@ -644,6 +671,42 @@ button:disabled {
   margin: 0;
   padding: 0;
   align-self: center;
+}
+
+.links-nav {
+  width: auto;
+  height: auto;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  margin-left: 25px;
+}
+
+.display-nav {
+  display: flex;
+}
+
+.no-nav {
+  display: none;
+}
+
+.nav-styles {
+  flex-direction: column;
+  position: absolute;
+  top: 48px;
+  width: 87.3vw;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0 24px;
+  background: #3c3a39;
 }
 
 @media screen and (min-width: 768px) {
@@ -1084,6 +1147,8 @@ button:disabled {
     height: 40px;
     display: flex;
     align-items: center;
+    align-self: center;
+    border-bottom-style: none;
   }
 
   .links-nav {
@@ -1101,6 +1166,7 @@ button:disabled {
     align-self: center;
     transition-property: all;
     transition-duration: 1s;
+    margin-left: 0;
   }
 
   .navigator {
@@ -1143,5 +1209,24 @@ button:disabled {
 
   .links-nav:hover {
     transform: translateY(-10px);
+  }
+
+  .show-nav {
+    display: block;
+  }
+
+  .display-nav {
+    display: flex;
+  }
+
+  .no-nav {
+    display: flex;
+  }
+
+  .nav-styles {
+    flex-direction: row;
+    position: static;
+    top: 48px;
+    width: 255px;
   }
 }

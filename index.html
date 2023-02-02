@@ -11,9 +11,9 @@
     <title>Luis Sanchez</title>
 </head>
 <body>
-  <script src="events.js"></script>
+  
   <header class="header">
-    <a href="index.html"><h1 class="name refname">Luis Sanchez</h1></a>
+    <a href="index.html" id="main-name" class="main-name"><h1 class="name refname">Luis Sanchez</h1></a>
     
     <nav class="navigator">
       <ul class="content-nav">
@@ -24,11 +24,12 @@
           <a href="#about-me" class="frame-nav"><h2 class="links-nav">About</h2></a>
         </li>
         <li class="frame-nav">
-          <a href="#contact" class="frame-nav"><h2 class="links-nav">contact</h2></a>
+          <a href="#contact" class="frame-nav"><h2 class="links-nav">Contact</h2></a>
         </li>
       </ul>
       <img src="images/letter.png" alt="contact button" class="change-image1">
-      <img src="images/menu.png" alt="menu button" class="change-image">
+      <button href="" class="ham-btn" id="button"><img src="images/menu.png" alt="menu button" class="change-image close-image"></button>
+      <button href="" class="ham-btn hidden" id="close-button"><img src="images/close-button.png" alt="close button" class="change-image"></button>
 
     </nav>
   
@@ -78,7 +79,7 @@
           <li class="design">Bootstrap</li>
           <li class="design">Ruby</li>
         </ul>
-        <button class="open-project">See Project</button>
+        <button class="open-project button-animations">See Project</button>
       </div>
     </div>
     <section class="card-works">
@@ -93,7 +94,7 @@
             <li class="tags-li">Ruby</li>
           </ul>
         </div>
-        <button class="see-project custombt"> See Project</button>
+        <button class="see-project custombt button-animations"> See Project</button>
       </div>
       <div class="card custom-card2">
         <div class="portrait">
@@ -105,7 +106,7 @@
             <li class="tags-li">Ruby</li>
           </ul>
         </div>
-        <button class="see-project non-content"> See Project</button>
+        <button class="see-project non-content button-animations"> See Project</button>
       </div>
       <div class="card custom-card3">
         <div class="portrait">
@@ -117,7 +118,7 @@
             <li class="tags-li">Ruby</li>
           </ul>
         </div>
-        <button class="see-project non-content"> See Project</button>
+        <button class="see-project non-content button-animations"> See Project</button>
       </div>
       <div class="card custom-card-shadow">
         <div class="portrait">
@@ -129,7 +130,7 @@
             <li class="tags-li">Ruby</li>
           </ul>
         </div>
-        <button class="see-project non-content"> See Project</button>
+        <button class="see-project non-content button-animations"> See Project</button>
       </div>
       <div class="card custom-card2">
         <div class="portrait">
@@ -141,7 +142,7 @@
             <li class="tags-li">Ruby</li>
           </ul>
         </div>
-        <button class="see-project non-content"> See Project</button>
+        <button class="see-project non-content button-animations"> See Project</button>
       </div>
       <div class="card custom-card3">
         <div class="portrait">
@@ -153,7 +154,7 @@
             <li class="tags-li">Ruby</li>
           </ul>
         </div>
-        <button class="see-project non-content"> See Project</button>
+        <button class="see-project non-content button-animations"> See Project</button>
       </div>
     </section>
 
@@ -162,7 +163,7 @@
     <div class="about-me">
       <h2 class="about-title">About me</h2>
       <p class="description-about">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-      <button class="resume-button">Get My Resume</button>
+      <button class="resume-button button-animations">Get My Resume</button>
     </div>
     <hr class="solidhr1">
     <ul class="skills">
@@ -225,7 +226,7 @@
           <textarea name="message" class="msg-input" id="msg-input" id="msg" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
         </li>
         <li class="items-form put-center">
-          <button type="submit" class="resume-button center1">Get in touch</button>
+          <button type="submit" class="resume-button center1 button-animations">Get in touch</button>
         </li>
       </ul>
     </form>
@@ -245,5 +246,6 @@
     </ul>
     <hr class="solidhr4 non-content">
   </section>
+  <script src="events.js"></script>
 </body>
 </html>
