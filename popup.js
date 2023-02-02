@@ -117,7 +117,6 @@ btnPopup.forEach((button, id) => {
   button.addEventListener('click', () => {
     const nId = works.findIndex((work) => work.item === id);
     body.appendChild(windowShadow);
-    // body.style.mixBlendMode = 'multiply';
     body.appendChild(popUp);
     popUp.appendChild(divHead);
     const numList = document.querySelectorAll('.ul-list');
@@ -130,8 +129,6 @@ btnPopup.forEach((button, id) => {
       }
     });
     posicionActualDelDesplazamiento = window.scrollY;
-    // document.documentElement.scrollTop = 0;
-    // document.body.style.overflow = "hidden";
     divTitle.appendChild(title);
     divTitle.appendChild(closeBtn);
     popUp.appendChild(divMiddle);
@@ -147,7 +144,6 @@ btnPopup.forEach((button, id) => {
     windowShadow.classList.add('window');
     popUp.classList.add('pop-up');
     divHead.classList.add('div-head');
-    // content
     title.textContent = works[nId].title;
     imagePortrait.src = window.innerWidth < 768 ? works[nId].image : works[nId].desktopImage;
     imagePortrait.classList.add('image-portrait');
@@ -172,8 +168,6 @@ function closePopup() {
   windowScreen.style.display = 'none';
   popUp.style.display = 'none';
   document.body.style.overflow = 'auto';
-
-  // regresa a la posición anterior del desplazamiento
   window.scrollTo(0, posicionActualDelDesplazamiento);
 }
 closeBtn.addEventListener('click', closePopup);
