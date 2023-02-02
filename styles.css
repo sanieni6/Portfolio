@@ -43,9 +43,6 @@ body {
   border: 0;
 }
 
-.hidden {
-  display: none;
-}
 .new-querie {
   width: 100%;
   height: max-content;
@@ -700,14 +697,22 @@ body {
   display: none;
 }
 
+.nav-styles {
+  flex-direction: column;
+  position: absolute;
+  top: 48px;
+  width: 87.3vw;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0 24px;
+  background: #3c3a39;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     width: 100%;
     height: 72px;
-  }
-
-  .display-nav {
-    display: flex;
   }
 
   .name {
@@ -1213,8 +1218,15 @@ body {
   .display-nav {
     display: flex;
   }
-  
+
   .no-nav {
     display: flex;
+  }
+
+  .nav-styles {
+    flex-direction: row;
+    position: static;
+    top: 48px;
+    width: 255px;
   }
 }
