@@ -128,6 +128,10 @@ body {
   border-width: 1px;
 }
 
+.hidden {
+  display: none;
+}
+
 .change-image1 {
   display: none;
 }
