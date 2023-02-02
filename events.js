@@ -19,3 +19,6 @@ function close() {
   btn.style.display = 'block';
 }
 
+liItems.forEach((element) => element.addEventListener('click', close));
+btn.addEventListener('click', displayMenu);
+closeBtn.addEventListener('click', close);
