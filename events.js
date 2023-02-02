@@ -16,6 +16,7 @@ function close() {
   nav.classList.add('no-nav');
   name.style.display = 'block';
   closeBtnEvent.style.display = 'none';
+  btn.style.display = 'block';
 }
 liItems.forEach((element) => element.addEventListener('click', close));
 btn.addEventListener('click', displayMenu);
