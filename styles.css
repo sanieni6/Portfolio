@@ -709,6 +709,10 @@ body {
   background: #3c3a39;
 }
 
+.error-message {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     width: 100%;
