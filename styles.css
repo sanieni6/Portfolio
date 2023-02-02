@@ -652,19 +652,28 @@ button:disabled {
   background: #979493;
   mix-blend-mode: multiply;
   /* filter: blur(4px); */
-  position: absolute;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* top: 0; */
   z-index: 1;
   width: 100%;
-  height: max-content;
+  height: 100%;
+  max-height: 100%;
+  
 }
 
 .pop-up {
-  /* filter: none; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
   display: flex;
   flex-direction: column;
   width: 91.46%;
-  background: #fff;
+  background-color: #fff;
   align-self: center;
   align-items: center;
   height: 85%;
@@ -673,12 +682,12 @@ button:disabled {
   z-index: 2;
   margin-bottom: 39px;
   border: 1px solid #dfe1e6;
-  mix-blend-mode: normal;
-  isolation: isolate;
+  overflow: auto;
 }
 
 .image-portrait {
   width: 90.5%;
+  max-height: 220px;
 }
 
 .div-title {
@@ -692,7 +701,7 @@ button:disabled {
   margin-top: 16px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 24px;
 }
 
 .close-button {
@@ -1302,10 +1311,11 @@ button:disabled {
   }
 
   .pop-up {
+    transform: translate(-50%, -70%);
     width: 80.27%;
     margin-top: 112px;
     flex-direction: column;
-    height: max-content;
+    height: 78.52%;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px 0 #252f8914;
   }
@@ -1326,18 +1336,20 @@ button:disabled {
     gap: 25px;
     width: 95.84%;
     margin-bottom: 27px;
+    height: 70.99%;
   }
 
   .image-portrait {
     width: 59.47%;
     /* height: 100%; */
-    min-height: max-content;
+    min-height: 100%;
     max-height: 400px;
     /* height: max-content; */
   }
 
   .ploret {
     line-height: 30px;
+    /* padding-bottom: 12%; */
   }
 
   .buttons-container {

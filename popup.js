@@ -20,7 +20,7 @@ const works = [
     {
         item: 0,
         title:'Multi Post Stories',
-        apps: ['html1', 'Bootstrap', 'Ruby on Rails'],
+        apps: ['html', 'Bootstrap', 'Ruby on Rails'],
         image: '/images/Snapshoot Portfolio.png',
         desktopImage: '/images/first-place.png',
         p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -32,7 +32,7 @@ const works = [
     {
         item: 1,
         title:'Profesional Art Printing Data',
-        apps:['html2', 'Bootstrap', 'Ruby on Rails'],
+        apps:['html', 'Bootstrap', 'Ruby on Rails'],
         image: '/images/second-place.png',
         desktopImage: '/images/Img Placeholder.png',
         p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -43,7 +43,7 @@ const works = [
     {
         item: 2,
         title:'Profesional Art Printing Data',
-        apps:['html3', 'Bootstrap', 'Ruby on Rails'],
+        apps:['html', 'Bootstrap', 'Ruby on Rails'],
         image: '/images/second-place.png',
         desktopImage: '/images/placeholder1.png',
         p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -54,7 +54,7 @@ const works = [
     {
         item: 3,
         title:'Profesional Art Printing Data',
-        apps:['html4', 'Bootstrap', 'Ruby on Rails'],
+        apps:['html', 'Bootstrap', 'Ruby on Rails'],
         image: '/images/second-place.png',
         desktopImage: '/images/placeholder2.png',
         p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -65,7 +65,7 @@ const works = [
     {
         item: 4,
         title:'Profesional Art Printing Data',
-        apps:['html5', 'Bootstrap', 'Ruby on Rails'],
+        apps:['html', 'Bootstrap', 'Ruby on Rails'],
         image: '/images/second-place.png',
         desktopImage: '/images/Img Placeholder.png',
         p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -76,7 +76,7 @@ const works = [
     {
         item: 5,
         title:'Profesional Art Printing Data',
-        apps:['html6', 'Bootstrap', 'Ruby on Rails'],
+        apps:['html', 'Bootstrap', 'Ruby on Rails'],
         image: '/images/second-place.png',
         desktopImage: '/images/placeholder1.png',
         p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -87,7 +87,7 @@ const works = [
     {
         item: 6,
         title:'Profesional Art Printing Data',
-        apps:['html7', 'Bootstrap', 'Ruby on Rails'],
+        apps:['html', 'Bootstrap', 'Ruby on Rails'],
         image: '/images/second-place.png',
         desktopImage: '/images/placeholder2.png',
         p: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -117,7 +117,8 @@ btnPopup.forEach((button, id) => {
     button.addEventListener("click", () => {
     const nId = works.findIndex((work) => work.item === id);
     body.appendChild(windowShadow);
-    windowShadow.appendChild(popUp);
+    //body.style.mixBlendMode = 'multiply';
+    body.appendChild(popUp);
     popUp.appendChild(divHead);
     const numList = document.querySelectorAll('.ul-list');
     numList.forEach((list, idd) => {
@@ -130,8 +131,8 @@ btnPopup.forEach((button, id) => {
 
     })
     posicionActualDelDesplazamiento = window.scrollY;
-    document.documentElement.scrollTop = 0;
-    document.body.style.overflow = "hidden";
+    //document.documentElement.scrollTop = 0;
+    //document.body.style.overflow = "hidden";
     divTitle.appendChild(title);
     divTitle.appendChild(closeBtn);
     popUp.appendChild(divMiddle);
@@ -143,6 +144,7 @@ btnPopup.forEach((button, id) => {
     buttonContainer.appendChild(btnSee);
     const windowScreen = document.querySelector('.window');
     windowScreen.style.display = 'flex';
+    popUp.style.display = 'flex';
     windowShadow.classList.add('window');
     popUp.classList.add('pop-up');
     divHead.classList.add('div-head');
@@ -175,6 +177,7 @@ btnPopup.forEach((button, id) => {
 function closePopup() {
     const windowScreen = document.querySelector('.window');
     windowScreen.style.display = 'none';
+    popUp.style.display = 'none';
     document.body.style.overflow = "auto";
 
   // regresa a la posición anterior del desplazamiento
