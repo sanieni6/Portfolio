@@ -19,13 +19,13 @@ const renderInfo = () => {
   emailInput.value = storedUserData.userEmail;
   descriptionTextarea.value = storedUserData.message;
 };
-const local = (event, value) => {
+const localStore = (event, value) => {
   formData[value] = event.target.value;
   localStorage.setItem('formData', JSON.stringify(formData));
 };
 window.onload = renderInfo;
 validate.forEach((element) => element.addEventListener('keyup', (e) => {
-  local(e, element.name);
+  localStore(e, element.name);
 }));
 
 document.getElementById('forma').addEventListener('submit', (event) => {
@@ -38,4 +38,3 @@ document.getElementById('forma').addEventListener('submit', (event) => {
     message.style.display = 'none';
   }
 });
-
