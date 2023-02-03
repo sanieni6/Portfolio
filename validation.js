@@ -32,9 +32,6 @@ validate.forEach((element) => element.addEventListener('keyup', (e) => {
   local(e, element.name);
 }));
 
-
-
-
 // preserve data
 
 // validation
