@@ -7,27 +7,25 @@ errorMessage.appendChild(message);
 const userName = document.getElementById('username');
 const descriptionTextarea = document.getElementById('msg-input');
 const validate = document.querySelectorAll('.input');
-const formData = {
-  userName: JSON.parse(localStorage.getItem('formData')).userName,
-  userEmail: JSON.parse(localStorage.getItem('formData')).userEmail,
-  message: JSON.parse(localStorage.getItem('formData')).message,
-};
 
+validate.forEach((element) => element.addEventListener('input', () => {
+  localStorage.setItem(
+    'formData',
+    JSON.stringify({
+      userName: userName.value,
+      userEmail: emailInput.value,
+      message: descriptionTextarea.value,
+
+    }),
+  );
+}));
+const fields = JSON.parse(localStorage.formData);
 const renderInfo = () => {
-  const storedUserData = JSON.parse(localStorage.getItem('formData'));
-  userName.value = storedUserData.userName;
-  emailInput.value = storedUserData.userEmail;
-  descriptionTextarea.value = storedUserData.message;
-};
-const localStore = (event, value) => {
-  formData[value] = event.target.value;
-  localStorage.setItem('formData', JSON.stringify(formData));
+  userName.value = fields.userName;
+  emailInput.value = fields.userEmail;
+  descriptionTextarea.value = fields.message;
 };
 window.onload = renderInfo;
-validate.forEach((element) => element.addEventListener('keyup', (e) => {
-  localStore(e, element.name);
-}));
-
 document.getElementById('forma').addEventListener('submit', (event) => {
   const email = emailInput.value;
   if (email.toLowerCase() !== email) {
