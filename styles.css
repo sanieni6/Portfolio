@@ -711,6 +711,11 @@ body {
 
 .error-message {
   display: none;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  size: 15px;
+  line-height: 24px;
+  color: #ff0000;
 }
 
 @media screen and (min-width: 768px) {
